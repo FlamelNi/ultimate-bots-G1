@@ -20,3 +20,4 @@ checkpoints/v8/*.pt filter=lfs diff=lfs merge=lfs -text
 exports/v8/**/*.onnx filter=lfs diff=lfs merge=lfs -text
 videos/v8/*.mp4 filter=lfs diff=lfs merge=lfs -text
 videos/v8/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+exports/turndance3/**/*.mp4 filter=lfs diff=lfs merge=lfs -text

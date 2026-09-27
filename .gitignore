@@ -19,3 +19,7 @@ data/motion_lib/
 
 # Track only deliberately selected model artifacts through Git LFS.
 checkpoints/intermediate/
+
+# Never commit SSH keys used to access training servers.
+/key
+/key.pub
