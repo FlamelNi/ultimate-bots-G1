@@ -16,8 +16,13 @@ not a physical-robot deployment package.
 | Cross-simulator capture | [MuJoCo](exports/turndance3/final/mujoco_video/turndance3_sim2sim.mp4) |
 
 These are visual records, not evidence of a deployment-ready policy or a
-statistically validated success rate. The released repository does not include
-a Turn Dance ONNX policy or checkpoint for these recorded runs.
+statistically validated success rate. The step-2000 Turn Dance ONNX exports,
+observation configuration, and export parity results are in
+[`exports/turndance3/final/onnx/`](exports/turndance3/final/onnx/). They have
+not been validated for physical-robot deployment.
+
+Submission artifacts: [Turn Dance ONNX policy](https://huggingface.co/hyunho7979/sonic-turn-dance)
+and [motion dataset](https://huggingface.co/datasets/hyunho7979/sonic-turn-dance).
 
 ## Motion data and code
 
